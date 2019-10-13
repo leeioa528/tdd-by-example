@@ -6,8 +6,10 @@ package guru.springframework;
 public abstract class Money {
     protected int amount;
 
+    //subsclasses will provide there own implementations
     public abstract Money times(int multiplier);
 
+    //helper methods
     public static Money dollar(int amount){
         return new Dollar(amount);
     }

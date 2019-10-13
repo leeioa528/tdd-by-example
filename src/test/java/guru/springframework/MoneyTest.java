@@ -12,6 +12,7 @@ public class MoneyTest {
 
     @Test
     void testMultiplicationDollar() {
+        //now we have static classes
         Money five = Money.dollar(5);
         assertEquals(Money.dollar(10), five.times(2));
         assertEquals(Money.dollar(15), five.times(3));
@@ -19,6 +20,7 @@ public class MoneyTest {
 
     @Test
     void testEqualityDollar() {
+        //static classes
         assertEquals(Money.dollar(5), Money.dollar(5));
         assertNotEquals(Money.dollar(5), Money.dollar(8));
     }
