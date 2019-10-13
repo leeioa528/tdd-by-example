@@ -5,6 +5,7 @@ package guru.springframework;
  */
 public class Dollar extends Money {
 
+    //Now everything is money, all i have is a money and currency code
     public Dollar(int amount, String currency) {
         super(amount, currency);
     }

@@ -17,10 +17,12 @@ public class Money {
     }
 
 
+    //create the instance of money for dollar
     public static Money dollar(int amount){
         return new Dollar(amount, "USD");
     }
 
+    //create the instance of money for frank
     public static Money franc(int amount){
         return new Franc(amount, "CHF");
     }
