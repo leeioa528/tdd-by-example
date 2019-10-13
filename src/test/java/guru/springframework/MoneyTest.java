@@ -10,6 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
  */
 public class MoneyTest {
 
+    //ALL we have now is static factories
     @Test
     void testMultiplicationDollar() {
         Money five = Money.dollar(5);

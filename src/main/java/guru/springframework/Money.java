@@ -2,6 +2,7 @@ package guru.springframework;
 
 /**
  * Created by jt on 2018-10-05.
+ * SO NOW we have more static factories
  */
 public abstract class Money {
     protected int amount;
